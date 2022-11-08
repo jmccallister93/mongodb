@@ -1,0 +1,24 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "- use db : switch to db database (exist or not exist is ok . If not exist when you add collection it will create for you) - cls : clear screen - show collections : show all collections in current database - db : show your current database name - help : list all option command - name = \"yoshi\" : create variable in shell  - exit : stop shell - mongosh : start shell",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmccallister93/mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmccallister93/mongodb/issues"
+  },
+  "homepage": "https://github.com/jmccallister93/mongodb#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0",
+    "nodemon": "^2.0.20"
+  }
+}
